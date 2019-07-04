@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>752442843048-2nrcc7p8jr32knp5kndnh14v4pf27fc3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.752442843048-2nrcc7p8jr32knp5kndnh14v4pf27fc3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD26ioD_nGPFHDHaSUT0_MXVnXlD0NEkpg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>752442843048</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.swift.CurrencySwap</string>
+	<key>PROJECT_ID</key>
+	<string>currencyexchange-3350d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>currencyexchange-3350d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:752442843048:ios:292f952b524f48dd</string>
+	<key>DATABASE_URL</key>
+	<string>https://currencyexchange-3350d.firebaseio.com</string>
+</dict>
+</plist>

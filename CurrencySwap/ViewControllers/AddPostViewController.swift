@@ -67,10 +67,10 @@ class AddPostViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
         let postData = allPostData1.childByAutoId().child("post")
         postData.setValue(["Location": "\(locationTF.text ?? "")",
-            "myAmount": "\(myMoneyAmountTF.text ?? "")",
+            "myAmount": "\(myMoneyAmountTF.text ?? "0.0")",
             "myCurrency": "\(myMoneyTypeTF.text ?? "")",
-            "radius": "\(seacrhRadius.text ?? "")",
-            "yourAmount": "\(yourMoneyAmountTF.text ?? "")",
+            "radius": "\(seacrhRadius.text ?? "0.0")",
+            "yourAmount": "\(yourMoneyAmountTF.text ?? "0.0")",
             "yourCurrency": "\(yourMoneyTypeTF.text ?? "")"])
         
 //        let postData = allPostData.child(user.uid)
@@ -79,6 +79,7 @@ class AddPostViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     
   
+    
     
     @IBAction func loadLoaction(_ sender: Any) {
         

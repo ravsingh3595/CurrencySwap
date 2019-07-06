@@ -35,9 +35,9 @@ class AddPostViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBOutlet weak var yourMoneyAmountTF: UITextField!
     @IBOutlet weak var yourMoneyTypeTF: UITextField!
     
-//    var listOfCountry = ["CAD", "HKD","ISK","PHP", "DKK", "HUF", "CZK", "AUD", "RON", "SEK", "IDR", "INR", "BRL", "RUB", "HRK", "JPY", "THB", "CHF", "SGD", "PLN", "BGN", "TRY", "CNY", "NOK", "NZD", "ZAR", "USD", "MXN", "ILS", "GBP", "KRW", "MYR"]
+    var listOfCountry = ["CAD", "HKD","ISK","PHP", "DKK", "HUF", "CZK", "AUD", "RON", "SEK", "IDR", "INR", "BRL", "RUB", "HRK", "JPY", "THB", "CHF", "SGD", "PLN", "BGN", "TRY", "CNY", "NOK", "NZD", "ZAR", "USD", "MXN", "ILS", "GBP", "KRW", "MYR"]
     
-    var listOfCountry = ["HKD", "CAD", "USD","ISK", "AUD", "RON", "SEK", "IDR", "INR", "GBP", "KRW", "MYR"]
+//    var listOfCountry = ["HKD", "CAD", "USD","ISK", "AUD", "RON", "SEK", "IDR", "INR", "GBP", "KRW", "MYR"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

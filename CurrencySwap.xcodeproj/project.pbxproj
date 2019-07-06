@@ -23,6 +23,10 @@
 		CE01CA8622CD8E9E00F106FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE01CA8522CD8E9E00F106FF /* GoogleService-Info.plist */; };
 		CE01CA8822CD902300F106FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01CA8722CD902300F106FF /* User.swift */; };
 		CEC336F522CE9CDF00802567 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC336F422CE9CDF00802567 /* Result.swift */; };
+		CEC336F922CFE59400802567 /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC336F622CFE59300802567 /* DatabaseRepresentation.swift */; };
+		CEC336FA22CFE59400802567 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC336F722CFE59300802567 /* Message.swift */; };
+		CEC336FB22CFE59400802567 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC336F822CFE59300802567 /* Channel.swift */; };
+		CEC336FD22CFE5FF00802567 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC336FC22CFE5FF00802567 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		CE01CA8522CD8E9E00F106FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE01CA8722CD902300F106FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEC336F422CE9CDF00802567 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CEC336F622CFE59300802567 /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		CEC336F722CFE59300802567 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CEC336F822CFE59300802567 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		CEC336FC22CFE5FF00802567 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				CE01CA7722CD48FD00F106FF /* AddPostViewController.swift */,
 				CE01CA7D22CD7BB100F106FF /* HomeViewController.swift */,
 				CE01CA8222CD88BE00F106FF /* LoginViewController.swift */,
+				CEC336FC22CFE5FF00802567 /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -129,6 +138,9 @@
 		CE01CA7F22CD833000F106FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEC336F822CFE59300802567 /* Channel.swift */,
+				CEC336F622CFE59300802567 /* DatabaseRepresentation.swift */,
+				CEC336F722CFE59300802567 /* Message.swift */,
 				CE01CA8022CD835900F106FF /* Post.swift */,
 				CE01CA8722CD902300F106FF /* User.swift */,
 				CEC336F422CE9CDF00802567 /* Result.swift */,
@@ -260,11 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC336F522CE9CDF00802567 /* Result.swift in Sources */,
+				CEC336FB22CFE59400802567 /* Channel.swift in Sources */,
 				CE01CA8322CD88BE00F106FF /* LoginViewController.swift in Sources */,
 				CE01CA7E22CD7BB100F106FF /* HomeViewController.swift in Sources */,
+				CEC336F922CFE59400802567 /* DatabaseRepresentation.swift in Sources */,
 				CE01CA7822CD48FD00F106FF /* AddPostViewController.swift in Sources */,
 				CE01CA6422CD478C00F106FF /* ViewController.swift in Sources */,
+				CEC336FA22CFE59400802567 /* Message.swift in Sources */,
 				CE01CA8822CD902300F106FF /* User.swift in Sources */,
+				CEC336FD22CFE5FF00802567 /* ChatViewController.swift in Sources */,
 				CE01CA8122CD835900F106FF /* Post.swift in Sources */,
 				CE01CA6A22CD478C00F106FF /* CurrencySwap.xcdatamodeld in Sources */,
 				CE01CA6222CD478C00F106FF /* AppDelegate.swift in Sources */,
